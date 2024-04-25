@@ -14,6 +14,7 @@ struct VGrid: View {
     let number = Array(repeating: 1, count: 10)
     @State var animationValues: Int = 100
     @State private var selectedColor: Color? = nil
+    let name: [String] = Array(repeating: "John", count: 9)
     var body: some View {
         ZStack(alignment: .center){
             VStack(alignment: .leading){
@@ -24,15 +25,18 @@ struct VGrid: View {
                 }
                 LazyVGrid(columns:rows,spacing: 10){
                     ForEach(colorItem,id: \.self){ item in
-                        RoundedRectangle(cornerRadius: 25)
-                            .fill(item.gradient)
-                            .frame(maxWidth: .infinity)
-                            .frame(height: 100)
-                            .onTapGesture {
-                                withAnimation{
-                                    selectedColor = item
+                        VStack{
+                            RoundedRectangle(cornerRadius: 25)
+                                .fill(item.gradient)
+                                .frame(maxWidth: .infinity)
+                                .frame(height: 100)
+                                .onTapGesture {
+                                    withAnimation{
+                                        selectedColor = item
+                                    }
                                 }
-                            }
+                            Text("\(name[0])")
+                        }
                     }
                 }
             }
