@@ -19,7 +19,7 @@ struct Home: View {
                     .padding(.horizontal,16)
                     .onAppear{
                         withAnimation(.bouncy){
-                            size += 500
+                            size = 800
                         }
                     }
                     .onTapGesture {
