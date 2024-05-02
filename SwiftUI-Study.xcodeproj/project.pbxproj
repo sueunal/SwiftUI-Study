@@ -21,6 +21,8 @@
 		2C3237D72BD8EF1200F65343 /* SwiftUI_StudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3237D62BD8EF1200F65343 /* SwiftUI_StudyUITestsLaunchTests.swift */; };
 		2C3237E42BD8EF4B00F65343 /* VGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3237E32BD8EF4B00F65343 /* VGrid.swift */; };
 		2C53ECA12BDAA5620014E8DF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53ECA02BDAA5620014E8DF /* Home.swift */; };
+		2C6185A02BE3D309005B8EBF /* RECO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61859F2BE3D309005B8EBF /* RECO.swift */; };
+		2C6185A22BE3D468005B8EBF /* REGORequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6185A12BE3D468005B8EBF /* REGORequestView.swift */; };
 		2C6ED4E22BE13BE100A6D9E7 /* newAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6ED4E12BE13BE100A6D9E7 /* newAlert.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		2C3237D62BD8EF1200F65343 /* SwiftUI_StudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_StudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2C3237E32BD8EF4B00F65343 /* VGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGrid.swift; sourceTree = "<group>"; };
 		2C53ECA02BDAA5620014E8DF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2C61859F2BE3D309005B8EBF /* RECO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RECO.swift; sourceTree = "<group>"; };
+		2C6185A12BE3D468005B8EBF /* REGORequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGORequestView.swift; sourceTree = "<group>"; };
 		2C6ED4E12BE13BE100A6D9E7 /* newAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +118,8 @@
 				2C6ED4E12BE13BE100A6D9E7 /* newAlert.swift */,
 				2C3237B62BD8EF1000F65343 /* SwiftUI_StudyApp.swift */,
 				2C3237B82BD8EF1000F65343 /* ContentView.swift */,
+				2C61859F2BE3D309005B8EBF /* RECO.swift */,
+				2C6185A12BE3D468005B8EBF /* REGORequestView.swift */,
 				2C3237E32BD8EF4B00F65343 /* VGrid.swift */,
 				2C53ECA02BDAA5620014E8DF /* Home.swift */,
 				2C3141052BDE5A7100E7C281 /* CircleAnimation.swift */,
@@ -290,10 +296,12 @@
 			files = (
 				2C3237B92BD8EF1000F65343 /* ContentView.swift in Sources */,
 				2C3237BB2BD8EF1000F65343 /* Item.swift in Sources */,
+				2C6185A02BE3D309005B8EBF /* RECO.swift in Sources */,
 				2C3141062BDE5A7100E7C281 /* CircleAnimation.swift in Sources */,
 				2C6ED4E22BE13BE100A6D9E7 /* newAlert.swift in Sources */,
 				2C53ECA12BDAA5620014E8DF /* Home.swift in Sources */,
 				2C3237E42BD8EF4B00F65343 /* VGrid.swift in Sources */,
+				2C6185A22BE3D468005B8EBF /* REGORequestView.swift in Sources */,
 				2C3141082BDE63B400E7C281 /* Searchable.swift in Sources */,
 				2C3237B72BD8EF1000F65343 /* SwiftUI_StudyApp.swift in Sources */,
 			);
