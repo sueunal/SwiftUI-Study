@@ -25,7 +25,7 @@ struct SwiftUI_StudyApp: App {
 
     var body: some Scene {
         WindowGroup {
-            DynamicKeyboardView()
+            KeyboardUseView()
         }
         .modelContainer(sharedModelContainer)
     }
