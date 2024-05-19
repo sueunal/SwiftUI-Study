@@ -10,8 +10,6 @@
 		2C242F472BF25A47000FAE0B /* ExtensionColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C242F462BF25A47000FAE0B /* ExtensionColor.swift */; };
 		2C3141062BDE5A7100E7C281 /* CircleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3141052BDE5A7100E7C281 /* CircleAnimation.swift */; };
 		2C3141082BDE63B400E7C281 /* Searchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3141072BDE63B400E7C281 /* Searchable.swift */; };
-		2C31410B2BDE645200E7C281 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2C31410A2BDE645200E7C281 /* Alamofire */; };
-		2C31410D2BDE645200E7C281 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 2C31410C2BDE645200E7C281 /* AlamofireDynamic */; };
 		2C3237B72BD8EF1000F65343 /* SwiftUI_StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3237B62BD8EF1000F65343 /* SwiftUI_StudyApp.swift */; };
 		2C3237B92BD8EF1000F65343 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3237B82BD8EF1000F65343 /* ContentView.swift */; };
 		2C3237BB2BD8EF1000F65343 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3237BA2BD8EF1000F65343 /* Item.swift */; };
@@ -26,6 +24,7 @@
 		2C53ECA12BDAA5620014E8DF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53ECA02BDAA5620014E8DF /* Home.swift */; };
 		2C6185A22BE3D468005B8EBF /* REGORequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6185A12BE3D468005B8EBF /* REGORequestView.swift */; };
 		2C6ED4E22BE13BE100A6D9E7 /* newAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6ED4E12BE13BE100A6D9E7 /* newAlert.swift */; };
+		2C7F56DF2BFA33830086C5E2 /* AysncConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F56DE2BFA33830086C5E2 /* AysncConcurrency.swift */; };
 		2C8DDD172BF4DDF5000F0150 /* SafeAreaColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DDD162BF4DDF5000F0150 /* SafeAreaColor.swift */; };
 		2CA350B62BF47C940049AA1D /* ViewModifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA350B52BF47C940049AA1D /* ViewModifierExtension.swift */; };
 		2CCDF2092BF64AFC00B38634 /* KeyboardUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDF2082BF64AFC00B38634 /* KeyboardUseView.swift */; };
@@ -70,6 +69,7 @@
 		2C53ECA02BDAA5620014E8DF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2C6185A12BE3D468005B8EBF /* REGORequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGORequestView.swift; sourceTree = "<group>"; };
 		2C6ED4E12BE13BE100A6D9E7 /* newAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newAlert.swift; sourceTree = "<group>"; };
+		2C7F56DE2BFA33830086C5E2 /* AysncConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AysncConcurrency.swift; sourceTree = "<group>"; };
 		2C8DDD162BF4DDF5000F0150 /* SafeAreaColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaColor.swift; sourceTree = "<group>"; };
 		2CA350B52BF47C940049AA1D /* ViewModifierExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierExtension.swift; sourceTree = "<group>"; };
 		2CCDF2082BF64AFC00B38634 /* KeyboardUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardUseView.swift; sourceTree = "<group>"; };
@@ -80,8 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C31410B2BDE645200E7C281 /* Alamofire in Frameworks */,
-				2C31410D2BDE645200E7C281 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +129,7 @@
 				2C8DDD162BF4DDF5000F0150 /* SafeAreaColor.swift */,
 				2CA350B52BF47C940049AA1D /* ViewModifierExtension.swift */,
 				2C36DF812BF1FF04004DE4DC /* DynamicKeyboardView.swift */,
+				2C7F56DE2BFA33830086C5E2 /* AysncConcurrency.swift */,
 				2C3237B82BD8EF1000F65343 /* ContentView.swift */,
 				2C36DF832BF1FF2F004DE4DC /* KeyboardHandler.swift */,
 				2CCDF2082BF64AFC00B38634 /* KeyboardUseView.swift */,
@@ -189,8 +188,6 @@
 			);
 			name = "SwiftUI-Study";
 			packageProductDependencies = (
-				2C31410A2BDE645200E7C281 /* Alamofire */,
-				2C31410C2BDE645200E7C281 /* AlamofireDynamic */,
 			);
 			productName = "SwiftUI-Study";
 			productReference = 2C3237B32BD8EF1000F65343 /* SwiftUI-Study.app */;
@@ -265,7 +262,6 @@
 			);
 			mainGroup = 2C3237AA2BD8EF1000F65343;
 			packageReferences = (
-				2C3141092BDE645200E7C281 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 2C3237B42BD8EF1000F65343 /* Products */;
 			projectDirPath = "";
@@ -319,6 +315,7 @@
 				2CA350B62BF47C940049AA1D /* ViewModifierExtension.swift in Sources */,
 				2CCDF2092BF64AFC00B38634 /* KeyboardUseView.swift in Sources */,
 				2C6185A22BE3D468005B8EBF /* REGORequestView.swift in Sources */,
+				2C7F56DF2BFA33830086C5E2 /* AysncConcurrency.swift in Sources */,
 				2C3141082BDE63B400E7C281 /* Searchable.swift in Sources */,
 				2C3237B72BD8EF1000F65343 /* SwiftUI_StudyApp.swift in Sources */,
 				2C36DF822BF1FF04004DE4DC /* DynamicKeyboardView.swift in Sources */,
@@ -680,30 +677,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		2C3141092BDE645200E7C281 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.9.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		2C31410A2BDE645200E7C281 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2C3141092BDE645200E7C281 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		2C31410C2BDE645200E7C281 /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 2C3141092BDE645200E7C281 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2C3237AB2BD8EF1000F65343 /* Project object */;
 }
