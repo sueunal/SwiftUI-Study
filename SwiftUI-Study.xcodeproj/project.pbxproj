@@ -24,6 +24,7 @@
 		2C53ECA12BDAA5620014E8DF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C53ECA02BDAA5620014E8DF /* Home.swift */; };
 		2C54FA762C63A60E00167E3B /* LayoutStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C54FA752C63A60E00167E3B /* LayoutStudy.swift */; };
 		2C6185A22BE3D468005B8EBF /* REGORequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6185A12BE3D468005B8EBF /* REGORequestView.swift */; };
+		2C6ECF492C949D1E00DA754A /* DismissSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6ECF482C949D1E00DA754A /* DismissSearch.swift */; };
 		2C6ED4E22BE13BE100A6D9E7 /* newAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6ED4E12BE13BE100A6D9E7 /* newAlert.swift */; };
 		2C7F56DF2BFA33830086C5E2 /* AysncConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F56DE2BFA33830086C5E2 /* AysncConcurrency.swift */; };
 		2C8DDD172BF4DDF5000F0150 /* SafeAreaColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DDD162BF4DDF5000F0150 /* SafeAreaColor.swift */; };
@@ -71,6 +72,7 @@
 		2C53ECA02BDAA5620014E8DF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2C54FA752C63A60E00167E3B /* LayoutStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutStudy.swift; sourceTree = "<group>"; };
 		2C6185A12BE3D468005B8EBF /* REGORequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGORequestView.swift; sourceTree = "<group>"; };
+		2C6ECF482C949D1E00DA754A /* DismissSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissSearch.swift; sourceTree = "<group>"; };
 		2C6ED4E12BE13BE100A6D9E7 /* newAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newAlert.swift; sourceTree = "<group>"; };
 		2C7F56DE2BFA33830086C5E2 /* AysncConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AysncConcurrency.swift; sourceTree = "<group>"; };
 		2C8DDD162BF4DDF5000F0150 /* SafeAreaColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaColor.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				2C6185A12BE3D468005B8EBF /* REGORequestView.swift */,
 				2C3237E32BD8EF4B00F65343 /* VGrid.swift */,
 				2C53ECA02BDAA5620014E8DF /* Home.swift */,
+				2C6ECF482C949D1E00DA754A /* DismissSearch.swift */,
 				2C3141052BDE5A7100E7C281 /* CircleAnimation.swift */,
 				2C54FA752C63A60E00167E3B /* LayoutStudy.swift */,
 				2C3141072BDE63B400E7C281 /* Searchable.swift */,
@@ -314,6 +317,7 @@
 				2C3237B92BD8EF1000F65343 /* ContentView.swift in Sources */,
 				2C3237BB2BD8EF1000F65343 /* Item.swift in Sources */,
 				2C36DF842BF1FF2F004DE4DC /* KeyboardHandler.swift in Sources */,
+				2C6ECF492C949D1E00DA754A /* DismissSearch.swift in Sources */,
 				2C3141062BDE5A7100E7C281 /* CircleAnimation.swift in Sources */,
 				2C54FA762C63A60E00167E3B /* LayoutStudy.swift in Sources */,
 				2C6ED4E22BE13BE100A6D9E7 /* newAlert.swift in Sources */,
