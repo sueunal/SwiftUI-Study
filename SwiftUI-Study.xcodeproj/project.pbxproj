@@ -29,6 +29,9 @@
 		2C7F56DF2BFA33830086C5E2 /* AysncConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F56DE2BFA33830086C5E2 /* AysncConcurrency.swift */; };
 		2C8DDD172BF4DDF5000F0150 /* SafeAreaColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DDD162BF4DDF5000F0150 /* SafeAreaColor.swift */; };
 		2CA350B62BF47C940049AA1D /* ViewModifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA350B52BF47C940049AA1D /* ViewModifierExtension.swift */; };
+		2CC1EFBB2CA7F0AE00EC4A46 /* KeywordButtongDefaultPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1EFBA2CA7F0AE00EC4A46 /* KeywordButtongDefaultPadding.swift */; };
+		2CC1EFBD2CA7F5C000EC4A46 /* DataManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1EFBC2CA7F5C000EC4A46 /* DataManagementView.swift */; };
+		2CC1EFBF2CA7FD3300EC4A46 /* AdjustingTheSpaceBetweenViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1EFBE2CA7FD3300EC4A46 /* AdjustingTheSpaceBetweenViews.swift */; };
 		2CCDF2092BF64AFC00B38634 /* KeyboardUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDF2082BF64AFC00B38634 /* KeyboardUseView.swift */; };
 		2CD1750D2C67A2950096598A /* SceneStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1750C2C67A2950096598A /* SceneStorageView.swift */; };
 /* End PBXBuildFile section */
@@ -77,6 +80,9 @@
 		2C7F56DE2BFA33830086C5E2 /* AysncConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AysncConcurrency.swift; sourceTree = "<group>"; };
 		2C8DDD162BF4DDF5000F0150 /* SafeAreaColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaColor.swift; sourceTree = "<group>"; };
 		2CA350B52BF47C940049AA1D /* ViewModifierExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierExtension.swift; sourceTree = "<group>"; };
+		2CC1EFBA2CA7F0AE00EC4A46 /* KeywordButtongDefaultPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordButtongDefaultPadding.swift; sourceTree = "<group>"; };
+		2CC1EFBC2CA7F5C000EC4A46 /* DataManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagementView.swift; sourceTree = "<group>"; };
+		2CC1EFBE2CA7FD3300EC4A46 /* AdjustingTheSpaceBetweenViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustingTheSpaceBetweenViews.swift; sourceTree = "<group>"; };
 		2CCDF2082BF64AFC00B38634 /* KeyboardUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardUseView.swift; sourceTree = "<group>"; };
 		2CD1750C2C67A2950096598A /* SceneStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,7 +145,10 @@
 				2C3237B82BD8EF1000F65343 /* ContentView.swift */,
 				2C36DF832BF1FF2F004DE4DC /* KeyboardHandler.swift */,
 				2CCDF2082BF64AFC00B38634 /* KeyboardUseView.swift */,
+				2CC1EFBA2CA7F0AE00EC4A46 /* KeywordButtongDefaultPadding.swift */,
 				2CD1750C2C67A2950096598A /* SceneStorageView.swift */,
+				2CC1EFBC2CA7F5C000EC4A46 /* DataManagementView.swift */,
+				2CC1EFBE2CA7FD3300EC4A46 /* AdjustingTheSpaceBetweenViews.swift */,
 				2C6185A12BE3D468005B8EBF /* REGORequestView.swift */,
 				2C3237E32BD8EF4B00F65343 /* VGrid.swift */,
 				2C53ECA02BDAA5620014E8DF /* Home.swift */,
@@ -323,10 +332,13 @@
 				2C6ED4E22BE13BE100A6D9E7 /* newAlert.swift in Sources */,
 				2C53ECA12BDAA5620014E8DF /* Home.swift in Sources */,
 				2C3237E42BD8EF4B00F65343 /* VGrid.swift in Sources */,
+				2CC1EFBB2CA7F0AE00EC4A46 /* KeywordButtongDefaultPadding.swift in Sources */,
 				2CA350B62BF47C940049AA1D /* ViewModifierExtension.swift in Sources */,
 				2CCDF2092BF64AFC00B38634 /* KeyboardUseView.swift in Sources */,
 				2C6185A22BE3D468005B8EBF /* REGORequestView.swift in Sources */,
 				2C7F56DF2BFA33830086C5E2 /* AysncConcurrency.swift in Sources */,
+				2CC1EFBF2CA7FD3300EC4A46 /* AdjustingTheSpaceBetweenViews.swift in Sources */,
+				2CC1EFBD2CA7F5C000EC4A46 /* DataManagementView.swift in Sources */,
 				2C3141082BDE63B400E7C281 /* Searchable.swift in Sources */,
 				2C3237B72BD8EF1000F65343 /* SwiftUI_StudyApp.swift in Sources */,
 				2C36DF822BF1FF04004DE4DC /* DynamicKeyboardView.swift in Sources */,
