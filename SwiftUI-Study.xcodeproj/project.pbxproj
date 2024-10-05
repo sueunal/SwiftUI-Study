@@ -34,6 +34,7 @@
 		2CC1EFBF2CA7FD3300EC4A46 /* AdjustingTheSpaceBetweenViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1EFBE2CA7FD3300EC4A46 /* AdjustingTheSpaceBetweenViews.swift */; };
 		2CCDF2092BF64AFC00B38634 /* KeyboardUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDF2082BF64AFC00B38634 /* KeyboardUseView.swift */; };
 		2CD1750D2C67A2950096598A /* SceneStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1750C2C67A2950096598A /* SceneStorageView.swift */; };
+		2CDDC0D02CB1942B007D7D72 /* SrcumdingerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDC0CF2CB1942B007D7D72 /* SrcumdingerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		2CC1EFBE2CA7FD3300EC4A46 /* AdjustingTheSpaceBetweenViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustingTheSpaceBetweenViews.swift; sourceTree = "<group>"; };
 		2CCDF2082BF64AFC00B38634 /* KeyboardUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardUseView.swift; sourceTree = "<group>"; };
 		2CD1750C2C67A2950096598A /* SceneStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageView.swift; sourceTree = "<group>"; };
+		2CDDC0CF2CB1942B007D7D72 /* SrcumdingerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrcumdingerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				2C54FA752C63A60E00167E3B /* LayoutStudy.swift */,
 				2C3141072BDE63B400E7C281 /* Searchable.swift */,
 				2C3237BA2BD8EF1000F65343 /* Item.swift */,
+				2CDDC0CE2CB193FF007D7D72 /* Scrumdinger */,
 				2C3237BC2BD8EF1200F65343 /* Assets.xcassets */,
 				2C3237BE2BD8EF1200F65343 /* SwiftUI_Study.entitlements */,
 				2C3237BF2BD8EF1200F65343 /* Preview Content */,
@@ -187,6 +190,14 @@
 				2C3237D62BD8EF1200F65343 /* SwiftUI_StudyUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI-StudyUITests";
+			sourceTree = "<group>";
+		};
+		2CDDC0CE2CB193FF007D7D72 /* Scrumdinger */ = {
+			isa = PBXGroup;
+			children = (
+				2CDDC0CF2CB1942B007D7D72 /* SrcumdingerView.swift */,
+			);
+			path = Scrumdinger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +337,7 @@
 				2C3237B92BD8EF1000F65343 /* ContentView.swift in Sources */,
 				2C3237BB2BD8EF1000F65343 /* Item.swift in Sources */,
 				2C36DF842BF1FF2F004DE4DC /* KeyboardHandler.swift in Sources */,
+				2CDDC0D02CB1942B007D7D72 /* SrcumdingerView.swift in Sources */,
 				2C6ECF492C949D1E00DA754A /* DismissSearch.swift in Sources */,
 				2C3141062BDE5A7100E7C281 /* CircleAnimation.swift in Sources */,
 				2C54FA762C63A60E00167E3B /* LayoutStudy.swift in Sources */,
