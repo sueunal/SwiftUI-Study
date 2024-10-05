@@ -35,6 +35,10 @@
 		2CCDF2092BF64AFC00B38634 /* KeyboardUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDF2082BF64AFC00B38634 /* KeyboardUseView.swift */; };
 		2CD1750D2C67A2950096598A /* SceneStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1750C2C67A2950096598A /* SceneStorageView.swift */; };
 		2CDDC0D02CB1942B007D7D72 /* SrcumdingerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDC0CF2CB1942B007D7D72 /* SrcumdingerView.swift */; };
+		2CDDC0D32CB199E2007D7D72 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDC0D22CB199E2007D7D72 /* Theme.swift */; };
+		2CDDC0D52CB19A63007D7D72 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDC0D42CB19A63007D7D72 /* DailyScrum.swift */; };
+		2CDDC0D72CB19B7B007D7D72 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDC0D62CB19B7B007D7D72 /* CardView.swift */; };
+		2CDDC0D92CB1A285007D7D72 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDDC0D82CB1A285007D7D72 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +91,10 @@
 		2CCDF2082BF64AFC00B38634 /* KeyboardUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardUseView.swift; sourceTree = "<group>"; };
 		2CD1750C2C67A2950096598A /* SceneStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneStorageView.swift; sourceTree = "<group>"; };
 		2CDDC0CF2CB1942B007D7D72 /* SrcumdingerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrcumdingerView.swift; sourceTree = "<group>"; };
+		2CDDC0D22CB199E2007D7D72 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2CDDC0D42CB19A63007D7D72 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		2CDDC0D62CB19B7B007D7D72 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2CDDC0D82CB1A285007D7D72 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,8 +204,20 @@
 			isa = PBXGroup;
 			children = (
 				2CDDC0CF2CB1942B007D7D72 /* SrcumdingerView.swift */,
+				2CDDC0D12CB199C8007D7D72 /* Models */,
 			);
 			path = Scrumdinger;
+			sourceTree = "<group>";
+		};
+		2CDDC0D12CB199C8007D7D72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CDDC0D22CB199E2007D7D72 /* Theme.swift */,
+				2CDDC0D42CB19A63007D7D72 /* DailyScrum.swift */,
+				2CDDC0D62CB19B7B007D7D72 /* CardView.swift */,
+				2CDDC0D82CB1A285007D7D72 /* TrailingIconLabelStyle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,11 +358,14 @@
 				2C3237BB2BD8EF1000F65343 /* Item.swift in Sources */,
 				2C36DF842BF1FF2F004DE4DC /* KeyboardHandler.swift in Sources */,
 				2CDDC0D02CB1942B007D7D72 /* SrcumdingerView.swift in Sources */,
+				2CDDC0D92CB1A285007D7D72 /* TrailingIconLabelStyle.swift in Sources */,
 				2C6ECF492C949D1E00DA754A /* DismissSearch.swift in Sources */,
 				2C3141062BDE5A7100E7C281 /* CircleAnimation.swift in Sources */,
 				2C54FA762C63A60E00167E3B /* LayoutStudy.swift in Sources */,
 				2C6ED4E22BE13BE100A6D9E7 /* newAlert.swift in Sources */,
 				2C53ECA12BDAA5620014E8DF /* Home.swift in Sources */,
+				2CDDC0D32CB199E2007D7D72 /* Theme.swift in Sources */,
+				2CDDC0D52CB19A63007D7D72 /* DailyScrum.swift in Sources */,
 				2C3237E42BD8EF4B00F65343 /* VGrid.swift in Sources */,
 				2CC1EFBB2CA7F0AE00EC4A46 /* KeywordButtongDefaultPadding.swift in Sources */,
 				2CA350B62BF47C940049AA1D /* ViewModifierExtension.swift in Sources */,
@@ -352,6 +375,7 @@
 				2CC1EFBF2CA7FD3300EC4A46 /* AdjustingTheSpaceBetweenViews.swift in Sources */,
 				2CC1EFBD2CA7F5C000EC4A46 /* DataManagementView.swift in Sources */,
 				2C3141082BDE63B400E7C281 /* Searchable.swift in Sources */,
+				2CDDC0D72CB19B7B007D7D72 /* CardView.swift in Sources */,
 				2C3237B72BD8EF1000F65343 /* SwiftUI_StudyApp.swift in Sources */,
 				2C36DF822BF1FF04004DE4DC /* DynamicKeyboardView.swift in Sources */,
 				2CD1750D2C67A2950096598A /* SceneStorageView.swift in Sources */,
