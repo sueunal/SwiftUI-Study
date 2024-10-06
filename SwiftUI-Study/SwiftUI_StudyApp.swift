@@ -25,7 +25,7 @@ struct SwiftUI_StudyApp: App {
 
     var body: some Scene {
         WindowGroup {
-            KeyboardUseView()
+            ScrumsView()
         }
         .modelContainer(sharedModelContainer)
     }

@@ -29,10 +29,7 @@ struct CardView: View {
         .foregroundStyle(scrum.theme.accentColor)
     }
 }
-#Preview(
-    "CardView",
-    traits: .fixedLayout(width: 400, height: 60)
-){
+#Preview {
     var scrum = DailyScrum.sampleData[0]
     CardView(scrum: scrum)
 }
