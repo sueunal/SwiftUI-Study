@@ -32,13 +32,13 @@ private struct SearchedView: View {
             }
             .sheet(isPresented: $isPresented){
                 NavigationStack{
-                    DetailView(item: item, dismissSearch: dismissSearch)
+                    DetailsView(item: item, dismissSearch: dismissSearch)
                 }
             }
         }
     }
 }
-private struct DetailView: View {
+private struct DetailsView: View {
     var item: String
     var dismissSearch: DismissSearchAction
     @Environment(\.dismiss) private var dismiss

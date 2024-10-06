@@ -26,6 +26,8 @@
 		2C6185A22BE3D468005B8EBF /* REGORequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6185A12BE3D468005B8EBF /* REGORequestView.swift */; };
 		2C6ECF492C949D1E00DA754A /* DismissSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6ECF482C949D1E00DA754A /* DismissSearch.swift */; };
 		2C6ED4E22BE13BE100A6D9E7 /* newAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6ED4E12BE13BE100A6D9E7 /* newAlert.swift */; };
+		2C723B272CB29A4600F17D02 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C723B262CB29A4600F17D02 /* DetailView.swift */; };
+		2C723B292CB2ABAE00F17D02 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C723B282CB2ABAE00F17D02 /* DetailEditView.swift */; };
 		2C7F56DF2BFA33830086C5E2 /* AysncConcurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F56DE2BFA33830086C5E2 /* AysncConcurrency.swift */; };
 		2C8DDD172BF4DDF5000F0150 /* SafeAreaColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DDD162BF4DDF5000F0150 /* SafeAreaColor.swift */; };
 		2CA350B62BF47C940049AA1D /* ViewModifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA350B52BF47C940049AA1D /* ViewModifierExtension.swift */; };
@@ -83,6 +85,8 @@
 		2C6185A12BE3D468005B8EBF /* REGORequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REGORequestView.swift; sourceTree = "<group>"; };
 		2C6ECF482C949D1E00DA754A /* DismissSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissSearch.swift; sourceTree = "<group>"; };
 		2C6ED4E12BE13BE100A6D9E7 /* newAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newAlert.swift; sourceTree = "<group>"; };
+		2C723B262CB29A4600F17D02 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2C723B282CB2ABAE00F17D02 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		2C7F56DE2BFA33830086C5E2 /* AysncConcurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AysncConcurrency.swift; sourceTree = "<group>"; };
 		2C8DDD162BF4DDF5000F0150 /* SafeAreaColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaColor.swift; sourceTree = "<group>"; };
 		2CA350B52BF47C940049AA1D /* ViewModifierExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierExtension.swift; sourceTree = "<group>"; };
@@ -216,8 +220,10 @@
 			children = (
 				2CDDC0D22CB199E2007D7D72 /* Theme.swift */,
 				2CDDC0D42CB19A63007D7D72 /* DailyScrum.swift */,
+				2C723B282CB2ABAE00F17D02 /* DetailEditView.swift */,
 				2CDDC0D62CB19B7B007D7D72 /* CardView.swift */,
 				2CFB5EF22CB2919200A6E21E /* ScrumsView.swift */,
+				2C723B262CB29A4600F17D02 /* DetailView.swift */,
 				2CDDC0D82CB1A285007D7D72 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
@@ -372,7 +378,9 @@
 				2CDDC0D52CB19A63007D7D72 /* DailyScrum.swift in Sources */,
 				2C3237E42BD8EF4B00F65343 /* VGrid.swift in Sources */,
 				2CC1EFBB2CA7F0AE00EC4A46 /* KeywordButtongDefaultPadding.swift in Sources */,
+				2C723B272CB29A4600F17D02 /* DetailView.swift in Sources */,
 				2CA350B62BF47C940049AA1D /* ViewModifierExtension.swift in Sources */,
+				2C723B292CB2ABAE00F17D02 /* DetailEditView.swift in Sources */,
 				2CCDF2092BF64AFC00B38634 /* KeyboardUseView.swift in Sources */,
 				2C6185A22BE3D468005B8EBF /* REGORequestView.swift in Sources */,
 				2C7F56DF2BFA33830086C5E2 /* AysncConcurrency.swift in Sources */,

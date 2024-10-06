@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SrcumdingerView: View {
-    @State private var value: Double = 0.0
+    @State private var value: Double = 30.0
     var body: some View {
         VStack {
             ProgressView(value: value , total: 100)

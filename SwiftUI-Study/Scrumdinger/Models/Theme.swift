@@ -34,4 +34,8 @@ enum Theme: String {
     var mainColor: Color {
         Color(rawValue)
     }
+    var name: String {
+        // .capitalized:  첫 문자는 대문자로 표시함
+        rawValue.capitalized
+    }
 }
